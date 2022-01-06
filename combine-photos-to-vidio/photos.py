@@ -30,3 +30,5 @@ print(dates_list)
 
 for i in range(len(dates_list)):
     os.rename(f"conv/{dates_list[i]}.jpg", f"conv/{i}.jpg")
+
+os.system('ffmpeg -start_number 0 -i "conv/%d.jpg" -c:v libx264 -vf "fps=30,format=yuv420p" out.mp4')
