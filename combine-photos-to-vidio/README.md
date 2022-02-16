@@ -1,0 +1,5 @@
+# Setup
+
+# needed libs
+
+Pillow
