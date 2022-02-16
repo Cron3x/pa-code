@@ -5,6 +5,6 @@
 - Pillow
 
 #
-``` batch
+```batch
 python(3) ./photos.py
 ```
