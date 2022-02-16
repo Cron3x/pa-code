@@ -2,4 +2,9 @@
 
 # needed libs
 
-Pillow
+- Pillow
+
+#
+```bash
+python(3) ./photos.py
+```
